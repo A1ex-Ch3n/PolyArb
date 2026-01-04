@@ -7,7 +7,9 @@ This project acts as a quantitative development framework to analyze statistical
 
 ### 1. Implied Expected Value ($P_{implied}$)
 We define the implied expected value of the asset based on the binary option price on Polymarket:
+
 $$ P_{implied} = P_{Poly} \times K $$
+
 Where:
 - $P_{Poly}$: The probability (price) of the "Yes" outcome on Polymarket (0 to 1).
 - $K$: The Strike Price of the contract.
